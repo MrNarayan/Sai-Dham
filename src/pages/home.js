@@ -12,14 +12,15 @@ const Home = () => {
             <div className="container_12">
                 <div className="grid_3">
                     <div className="box">
-                        <img src="Saiimages/Sai4.jpg" alt=""/>
+                        <img src="images/Saiimages/Sai4.jpg" alt=""/>
                         <div className="pad1">
-                            <div className="title">Shirdi Sai Baba</div>
-                            Shri Sai Baba is revered as one of the greatest saints ever seen in India, endowed with
+                            <a href="/sai-baba">Shri Shirdi Sai Baba</a>
+                            <text>
+                             is revered as one of the greatest saints ever seen in India, endowed with
                             unprecedented powers, and is worshipped as a God incarnate. (SAI meaning Sakshaat Ishwar) -
                             GOD THE ABSOLUTE ...
+                            </text>
                         </div>
-                        <a href="/sai-baba" className="btn">Details</a>
                     </div>
                 </div>
                 <div className="grid_6">
@@ -36,7 +37,7 @@ const Home = () => {
                 </div>
                 <div className="grid_3">
                     <div className="box">
-                        <img src="Saiimages/guruji.jpg" alt=""/>
+                        <img src="images/Saiimages/guruji.jpg" alt=""/>
                     </div>
                 </div>
             </div>
