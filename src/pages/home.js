@@ -4,6 +4,7 @@ import "../css/camera.css"
 import "../css/autoscroll.css"
 import "../Components/Header"
 import Header from "../Components/Header";
+import Footer from "../Components/Footer";
  
 const Home = () => {
     return (
@@ -125,24 +126,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
-
-            <div className="content page1">
-
-            </div>
-
-
-            <div style={{height: '100px'}}>
-
-            </div>
-
-            <footer>
-                <div className="container_12">
-                    <h2>Jai Shri Sai</h2>
-                    <a href="/login" className="btn">Login</a>
-                    <a href="/sign-up" className="btn">Sign Up</a>
-                </div>
-            </footer>
+            <Footer></Footer>
         </div>
     );
 };

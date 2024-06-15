@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Components/Header";
 import Scripts from "../Components/Scripts";
+import Footer from "../Components/Footer";
 
 const SaiBaba = () => {
     return (
@@ -68,13 +69,7 @@ const SaiBaba = () => {
 
                 </div>
             </div>
-
-            <footer>
-                <div className="container_12">
-                    <h2>Jai Shri Sai</h2>
-                </div>
-            </footer>
-
+            <Footer></Footer>
             </body>
         </div>
     );

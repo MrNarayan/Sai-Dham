@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 import Scripts from "../Components/Scripts";
  
 const Events = () => {
@@ -37,15 +38,7 @@ const Events = () => {
 
             </div>
         </div>
-
-        {/* <!--==============================footer=================================--> */}
-
-        <footer>
-            <div className="container_12">
-                <h2>Jai Shri Sai</h2>
-                {/* <!--<p>&copy; 2014 | <a href="www">Sai Parivar Foundation</a></p>--> */}
-            </div>
-        </footer>
+        <Footer></Footer>
         </body>
 
         </html>

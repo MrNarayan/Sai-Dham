@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../Components/Header";
 import Scripts from "../Components/Scripts";
+import Footer from "../Components/Footer";
  
 const AboutUs = () => {
     return (
@@ -124,16 +125,7 @@ const AboutUs = () => {
 
             </div>
         </div>
-
-        {/* <!--==============================footer=================================--> */}
-
-        <footer>
-            <div className="container_12">
-                <h2>Jai Shri Sai</h2>
-                {/* <!--<p>&copy; 2014 | <a href="www">Sai Parivar Foundation</a></p>--> */}
-            </div>
-        </footer>
-
+        <Footer></Footer>
         </body>
 
         </html>

@@ -82,13 +82,6 @@ const SignUp = () => {
                     <button type="submit">Sign Up</button>
                 </fieldset>
             </form>
-
-            <footer>
-                <div className="container_12">
-                    <h2>Jai Shri Sai</h2>
-                </div>
-            </footer>
-
             </body>
         </div>
     );
