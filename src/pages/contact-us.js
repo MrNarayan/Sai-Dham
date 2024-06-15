@@ -1,104 +1,11 @@
 import React from "react";
 import Header from "../Components/Header";
- 
- 
+import Scripts from "../Components/Scripts";
+
 const ContactUs = () => {
     return (
         <html lang="en">
-<head>
-    <title>Sai Parivar Foundation</title>
-    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-    <meta name="format-detection" content="telephone=no" />
-    <link rel="stylesheet" href="../styles.css" />
-    <link rel="stylesheet" href="css/ContactUs.css" />
-    <link rel="stylesheet" href="css/camera.css" />
-    <link rel="stylesheet" href="css/tablegenerator.css" />
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery-migrate-1.1.1.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/superfish.js"></script>
-    <script src="js/jquery.ui.totop.js"></script>
-    <script src="js/jquery.equalheights.js"></script>
-    <script src="js/jquery.mobilemenu.js"></script>
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/camera.js"></script>
-    {/* <!--[if (gt IE 9)|!(IE)]><!--> */}
-    <script src="js/jquery.mobile.customized.min.js"></script>
-    <script src="js/site.tree.js"></script>
-    {/* <!--<![endif]--> */}
-    {/* <script>
-
-
-        $(document).ready(function () {
-            $('#mobiledetail').toggle();
-            $('#donationdetail').toggle();
-	    $('#divMonth').toggle();
-            jQuery('#camera_wrap').camera({
-                loader: false,
-                pagination: true,
-                thumbnails: false,
-                height: '36.5%',
-                caption: false,
-                navigation: true,
-                fx: 'mosaic'
-            });
-        });
-
-        $(document).ready(function () {
-            $().UItoTop({ easingType: 'easeOutQuart' });
-        });
-
-        $('#arati').live("click", function () {
-            if (!$(this).hasclassName('selected')) {
-		if ($('#donation').hasclassName('selected')) {
-                    $('#divMonth').toggle();
-                    $('#month').attr("required", false);
-                    $('#donationdetail').toggle();
-                 }
-                if ($('#temple').hasclassName('selected')) {
-                    $('#mobiledetail').toggle();
-                 }
-                    $('#temple').removeclassName("selected");
-                    $('#donation').removeclassName("selected");
-                    $(this).addclassName("selected");
-                    $('#subject').val("Arati Registration");
-                }
-        });
-
-        $('#temple').live("click", function () {
-            if (!$(this).hasclassName('selected')) {
-                if ($('#donation').hasclassName('selected')) {
-                    $('#divMonth').toggle();
-                    $('#month').attr("required", false);
-                    $('#donationdetail').toggle();
-                }
-                $('#arati').removeclassName("selected");
-                $('#donation').removeclassName("selected");
-                $(this).addclassName("selected");
-                $('#mobiledetail').toggle();
-                $('#subject').val("Mobile Registration");
-            }
-        });
-
-        $('#donation').live("click", function () {
-            if (!$(this).hasclassName('selected')) {
-                if ($('#temple').hasclassName('selected')) {
-                    $('#mobiledetail').toggle();
-
-                }
-                $('#arati').removeclassName("selected");
-                $('#temple').removeclassName("selected");
-                $(this).addclassName("selected");
-                $('#divMonth').toggle();
-                $('#month').attr("required", true);
-
-                $('#donationdetail').toggle();
-                $('#subject').val("Monthly Charitable Volunteering Registration");
-            }
-        });
-    </script> */}
-
-</head>
+<Scripts></Scripts>
 <body className="page1">
 <Header current="Contact us"></Header>
     {/* <!--=======content================================--> */}
