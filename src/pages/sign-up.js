@@ -7,7 +7,7 @@ const SignUp = () => {
     const [password, setPassword] = useState("");
     const [role, setRole] = useState("");
 
-    function handleSubmit(event){
+    function handleSubmit(event) {
         event.preventDefault();
         console.log(username);
         console.log(password);
@@ -17,64 +17,79 @@ const SignUp = () => {
 
     return (
         <div>
-            
-<Scripts></Scripts>
-<body className="page1">
 
-    
-<Header></Header>
+            <Scripts></Scripts>
+            <body className="page1">
 
-    <form onSubmit={handleSubmit}>
-        <fieldset>
-        <legend>Sign Up</legend>
-        <div id="liveAlertPlaceholder"></div>
-        <div>
-            <label htmlFor="Username">Username</label>
-            <input required
-            type="text"
-            id="username"
-            name="username"
-            placeholder="username"
-            value={username}
-            onChange={(e) => {
-                setUsername(e.target.value);
-            }}
-            />
-        </div>
-        <div>
-            <label htmlFor="password">Password</label>
-            <input required
-            type="password"
-            id="password"
-            name="password"
-            placeholder="password"
-            value={password}
-            onChange={(e) => {
-                setPassword(e.target.value);
-            }}
-            />
-        </div>
-        <div class="form-group">
-            <label htmlFor="role">Role</label>
-            <select name ="role" id="exampleFormControlSelect1">
-                <option value="Devotee" onChange={(e) => {setRole(e.target.value)}}>Devotee</option>
-                <option value="Volunteer" onChange={(e) => {setRole(e.target.value)}}>Volunteer</option>
-                <option value="Aarti Volunteer" onChange={(e) => {setRole(e.target.value)}}>Aarti Volunteer</option>
-                <option value="Prasadam Coordinator" onChange={(e) => {setRole(e.target.value)}}>Prasadam Coordinator</option>
-                <option value="Mala Coordinator" onChange={(e) => {setRole(e.target.value)}}>Mala Coordinator</option>
-            </select>
-        </div>
-        <button type="submit">Sign Up</button>
-        </fieldset>
-    </form>
 
-    <footer>
-        <div className="container_12">
-            <h2>Jai Shri Sai</h2>
-        </div>
-    </footer>
+            <Header></Header>
 
-</body>
+            <form onSubmit={handleSubmit}>
+                <fieldset>
+                    <legend>Sign Up</legend>
+                    <div id="liveAlertPlaceholder"></div>
+                    <div>
+                        <label htmlFor="Username">Username</label>
+                        <input required
+                               type="text"
+                               id="username"
+                               name="username"
+                               placeholder="username"
+                               value={username}
+                               onChange={(e) => {
+                                   setUsername(e.target.value);
+                               }}
+                        />
+                    </div>
+                    <div>
+                        <label htmlFor="password">Password</label>
+                        <input required
+                               type="password"
+                               id="password"
+                               name="password"
+                               placeholder="password"
+                               value={password}
+                               onChange={(e) => {
+                                   setPassword(e.target.value);
+                               }}
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label htmlFor="role">Role</label>
+                        <select name="role" id="exampleFormControlSelect1">
+                            <option value="Devotee" onChange={(e) => {
+                                setRole(e.target.value)
+                            }}>Devotee
+                            </option>
+                            <option value="Volunteer" onChange={(e) => {
+                                setRole(e.target.value)
+                            }}>Volunteer
+                            </option>
+                            <option value="Aarti Volunteer" onChange={(e) => {
+                                setRole(e.target.value)
+                            }}>Aarti Volunteer
+                            </option>
+                            <option value="Prasadam Coordinator" onChange={(e) => {
+                                setRole(e.target.value)
+                            }}>Prasadam Coordinator
+                            </option>
+                            <option value="Mala Coordinator" onChange={(e) => {
+                                setRole(e.target.value)
+                            }}>Mala Coordinator
+                            </option>
+                        </select>
+                    </div>
+                    <button type="submit">Sign Up</button>
+                </fieldset>
+            </form>
+
+            <footer>
+                <div className="container_12">
+                    <h2>Jai Shri Sai</h2>
+                </div>
+            </footer>
+
+            </body>
         </div>
     );
 };

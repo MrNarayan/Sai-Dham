@@ -6,64 +6,77 @@ const Guruji = () => {
     return (
         <html lang="en">
 
-<Scripts></Scripts>
-<body className="page1">
-    
-<Header current="Guruji"></Header>
+        <Scripts></Scripts>
+        <body className="page1">
 
-    <div className="container_12">
-         <div className="slider_wrapper">
-              <div id="camera_wrap" className="">
-                <div data-src="images/GuruJi/GuruJi1.jpg"></div>
-                <div data-src="images/GuruJi/GuruJi2.jpg"></div>
-                <div data-src="images/GuruJi/GuruJi3.jpg"></div>
-                <div data-src="images/GuruJi/GuruJi4.jpg"></div>
-                <div data-src="images/GuruJi/GuruJi5.jpg"></div>
-                <div data-src="images/GuruJi/GuruJi6.jpg"></div>
-                <div data-src="images/GuruJi/GuruJi7.jpg"></div>
-                <div data-src="images/GuruJi/GuruJi8.jpg"></div>
-                <div data-src="images/GuruJi/GuruJi9.jpg"></div>
-                <div data-src="images/GuruJi/GuruJi10.jpg"></div>
-                <div data-src="images/GuruJi/GuruJi11.jpg"></div>
-                <div data-src="images/GuruJi/GuruJi12.jpg"></div>
-                <div data-src="images/GuruJi/GuruJi13.jpg"></div>
-                <div data-src="images/GuruJi/GuruJi14.jpg"></div>
-              </div>
-        </div>
-     </div>
-    {/* <!--=======content================================--> */}
-    <div className="content">
+        <Header current="Guruji"></Header>
+
         <div className="container_12">
+            <div className="slider_wrapper">
+                <div id="camera_wrap" className="">
+                    <div data-src="images/GuruJi/GuruJi1.jpg"></div>
+                    <div data-src="images/GuruJi/GuruJi2.jpg"></div>
+                    <div data-src="images/GuruJi/GuruJi3.jpg"></div>
+                    <div data-src="images/GuruJi/GuruJi4.jpg"></div>
+                    <div data-src="images/GuruJi/GuruJi5.jpg"></div>
+                    <div data-src="images/GuruJi/GuruJi6.jpg"></div>
+                    <div data-src="images/GuruJi/GuruJi7.jpg"></div>
+                    <div data-src="images/GuruJi/GuruJi8.jpg"></div>
+                    <div data-src="images/GuruJi/GuruJi9.jpg"></div>
+                    <div data-src="images/GuruJi/GuruJi10.jpg"></div>
+                    <div data-src="images/GuruJi/GuruJi11.jpg"></div>
+                    <div data-src="images/GuruJi/GuruJi12.jpg"></div>
+                    <div data-src="images/GuruJi/GuruJi13.jpg"></div>
+                    <div data-src="images/GuruJi/GuruJi14.jpg"></div>
+                </div>
+            </div>
+        </div>
+        {/* <!--=======content================================--> */}
+        <div className="content">
+            <div className="container_12">
 
-            <div className="grid_12">
-                <br />
+                <div className="grid_12">
+                    <br/>
                     {/* <!--<img src="Saiimages/guruji.jpg" style="float:left; width:auto; height:auto;vertical-align: middle;padding:10px 10px 10px;">--> */}
 
-                  
-                <h6>
-                    Dr. Chandra Bhanu Satpathy is a noted scholar, spiritual thinker, author and a humanitarian. He is an impeccable personification of the noble principles of life such as love, empathy, compassion, simplicity, humility, devotion to God and sacrifice. As an heir to a family of great academicians and administrators, versatile young writer of his time, perfect family man, an accomplished and decorated professional, compassionate and humanitarian, an ardent devotee of his Master and a friend, philosopher and guide to millions of people across the globe, Dr. Satpathy has experienced it all with equanimity.
-                    <br /><br />
-                    As he holds, the year 1989 marked a turning point in his life when he visited the Holy Shrine of Shri Sai Baba located in Shirdi (Maharashtra). Ever since, Dr. Satpathy has been spreading the teachings of Shri Shirdi Sai and Indian philosophy assiduously over a span of 25 years, not only in India but other countries as well. Under his inspiration and guidance, more than two hundred centers and forums devoted to philanthropy, community development, spiritualism and promotion of Indian culture, are active in countries like India, USA, Canada, Australia, New Zealand, South Africa, UK and some other countries in Europe.
-                    <br /><br />
-                    To read more about his life, journey, works and achievement, visit the official website on <a href="http://www.cbsatpathy.com" style={{"text-decoration": "underline"}}>Dr. C.B. Satpathy</a>                
-                </h6>
+
+                    <h6>
+                        Dr. Chandra Bhanu Satpathy is a noted scholar, spiritual thinker, author and a humanitarian. He
+                        is an impeccable personification of the noble principles of life such as love, empathy,
+                        compassion, simplicity, humility, devotion to God and sacrifice. As an heir to a family of great
+                        academicians and administrators, versatile young writer of his time, perfect family man, an
+                        accomplished and decorated professional, compassionate and humanitarian, an ardent devotee of
+                        his Master and a friend, philosopher and guide to millions of people across the globe, Dr.
+                        Satpathy has experienced it all with equanimity.
+                        <br/><br/>
+                        As he holds, the year 1989 marked a turning point in his life when he visited the Holy Shrine of
+                        Shri Sai Baba located in Shirdi (Maharashtra). Ever since, Dr. Satpathy has been spreading the
+                        teachings of Shri Shirdi Sai and Indian philosophy assiduously over a span of 25 years, not only
+                        in India but other countries as well. Under his inspiration and guidance, more than two hundred
+                        centers and forums devoted to philanthropy, community development, spiritualism and promotion of
+                        Indian culture, are active in countries like India, USA, Canada, Australia, New Zealand, South
+                        Africa, UK and some other countries in Europe.
+                        <br/><br/>
+                        To read more about his life, journey, works and achievement, visit the official website on <a
+                        href="http://www.cbsatpathy.com" style={{"text-decoration": "underline"}}>Dr. C.B. Satpathy</a>
+                    </h6>
+                </div>
+
             </div>
-            
         </div>
-    </div>
-    
-    {/* <!--==============================footer=================================--> */}
 
-    <footer>
-        <div className="container_12">
-            <h2>Jai Shri Sai</h2>
-            {/* <!--<p>&copy; 2014 | <a href="www">Sai Parivar Foundation</a></p>--> */}
-        </div>
-    </footer>
+        {/* <!--==============================footer=================================--> */}
 
-</body>
+        <footer>
+            <div className="container_12">
+                <h2>Jai Shri Sai</h2>
+                {/* <!--<p>&copy; 2014 | <a href="www">Sai Parivar Foundation</a></p>--> */}
+            </div>
+        </footer>
 
-</html>
+        </body>
+
+        </html>
     );
 };
  
